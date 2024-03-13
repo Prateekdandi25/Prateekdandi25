@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    int a,b;
+    int c,d,e,f;
+    cout<<"enter the value of a:"<<endl;
+    
+    cin>>a;
+    cout<<"enter the value of b:"<<endl;
+    cin>>b;
+    c=a+b;
+    d=a-b;
+    e=a*b;
+    f=a/b;
+    cout<<"the value of a+b is  "<<c<<endl;
+    cout<<"the value of a-b is  "<<d<<endl;
+    cout<<"the value of a*b is  "<<e<<endl;
+    cout<<"the value of a/b is  "<<f;
+    
+    return 0;
+}
