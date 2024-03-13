@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    int i;
+    
+        cout<<"Table of 2"<<endl;
+        for(i=2;i<=20;i+=2){
+        cout<<i<<endl;
+    }   cout<<"Table of 3"<<endl;
+        for(int a=3;a<=30;a+=3){
+            cout<<a<<endl;
+            
+        }
+            cout<<"Table of 4"<<endl;
+            for(int b=4;b<=40;b+=4){
+                cout<<b<<endl;
+            
+        }
+    
+    
+    return 0;
+}
