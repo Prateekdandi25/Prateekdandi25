@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    int a;
+   cout<<"enter the value of a"<<endl;
+   cin>>a;
+   if(a%2==0){
+       cout<<"the value "<<a<<" is even"<<endl;
+   }else{
+       cout<<"the value "<<a<<" is odd"<<endl;
+   }
+    return 0;
+}
