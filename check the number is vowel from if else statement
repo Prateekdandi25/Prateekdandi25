@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    char c;
+    cout<<"enter the character "<<endl;
+    cin>>c;
+    if(c=='a'||c=='A'||c=='e'||c=='E'||c=='I'||c=='i'||c=='o'||c=='O'||c=='u'||c=='U'){
+        cout<<"it is vowel"<<endl;
+    }else {
+        cout<<"it is consonant"<<endl;
+    }
+    return 0;
+}
