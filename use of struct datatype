@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+
+    struct employee  
+    {
+        int eid;
+        char favchar;
+        float salary;
+        
+    };
+    int main()
+    {
+        struct employee harry;
+        struct employee prateek;
+        harry.eid=1;
+        harry.favchar='c';
+        harry.salary=1200;
+        prateek.eid=2;
+        prateek.favchar='d';
+        prateek.salary=1900000;
+        cout<<"thr value is "<<harry.eid<<endl;
+        cout<<"the value is "<<harry.favchar<<endl;
+        cout<<"the value is "<<harry.salary<<endl;
+        cout<<"the value is "<<prateek.eid<<endl;
+        cout<<"the value is "<<prateek.favchar<<endl;
+        cout<<"the value is "<<prateek.salary<<endl;
+        
+    
+    
+
+    return 0;
+}
