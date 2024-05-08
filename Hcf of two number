@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    int a,b,r,hcf;
+    cout<<"enter two numbers"<<endl;
+    cin>>a>>b;
+    while(true)
+    {
+        hcf=b;
+        r=a%b;
+        a=b;
+        b=r;
+        if(r==0)
+        {
+            break;
+        }
+        
+    }
+    cout<<"hcf is "<<hcf<<endl;
+    return 0;
+}
