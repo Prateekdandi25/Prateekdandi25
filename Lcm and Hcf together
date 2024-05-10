@@ -1,0 +1,25 @@
+include <iostream>
+using namespace std;
+int main(){
+    int r,lcm,a,b,x,hcf;
+    cout<<"enter two numbers "<<endl;
+    cin>>a>>b;
+    x=a;
+    while(true)
+    {
+       lcm=a;
+        r=a%b;
+        if (r==0)
+        {
+            break;
+        }else{
+            a=a*2;
+        }
+    }
+        hcf=x*b/lcm;
+    
+    cout<<"lcm is "<<lcm<<endl;
+    cout<<"hcf is "<<hcf<<endl;
+    
+    return 0;
+}
